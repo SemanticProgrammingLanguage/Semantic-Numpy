@@ -1,0 +1,5060 @@
+# Semantic Programming Language and Code Transpiler
+# Copyright (c) 2026 Tarek Wasfy
+se 1
+program {
+    schema = 1
+    basis_sha256 = "7e240dd92ceb6352320d167f40f3c23baba0ba2825504243a20014340231eae9"
+    contract_refs = list [
+        object {
+            contract_id = 26
+            node_id = 0
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 0
+            role = "memory"
+        }
+        object {
+            contract_id = 3
+            node_id = 1
+            role = "module"
+        }
+        object {
+            contract_id = 3
+            node_id = 2
+            role = "module"
+        }
+        object {
+            contract_id = 21
+            node_id = 3
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 3
+            role = "memory"
+        }
+        object {
+            contract_id = 20
+            node_id = 3
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 3
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 4
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 4
+            role = "memory"
+        }
+        object {
+            contract_id = 24
+            node_id = 4
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 4
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 5
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 5
+            role = "memory"
+        }
+        object {
+            contract_id = 5
+            node_id = 5
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 5
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 6
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 6
+            role = "memory"
+        }
+        object {
+            contract_id = 19
+            node_id = 6
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 6
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 7
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 7
+            role = "memory"
+        }
+        object {
+            contract_id = 4
+            node_id = 7
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 7
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 8
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 8
+            role = "memory"
+        }
+        object {
+            contract_id = 15
+            node_id = 8
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 8
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 9
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 9
+            role = "memory"
+        }
+        object {
+            contract_id = 20
+            node_id = 9
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 9
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 10
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 10
+            role = "memory"
+        }
+        object {
+            contract_id = 19
+            node_id = 10
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 10
+            role = "value_category"
+        }
+        object {
+            contract_id = 29
+            node_id = 11
+            role = "call"
+        }
+        object {
+            contract_id = 23
+            node_id = 11
+            role = "dispatch"
+        }
+        object {
+            contract_id = 28
+            node_id = 11
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 11
+            role = "memory"
+        }
+        object {
+            contract_id = 25
+            node_id = 11
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 12
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 12
+            role = "memory"
+        }
+        object {
+            contract_id = 17
+            node_id = 12
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 12
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 13
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 13
+            role = "memory"
+        }
+        object {
+            contract_id = 20
+            node_id = 13
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 13
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 14
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 14
+            role = "memory"
+        }
+        object {
+            contract_id = 19
+            node_id = 14
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 14
+            role = "value_category"
+        }
+        object {
+            contract_id = 22
+            node_id = 15
+            role = "call"
+        }
+        object {
+            contract_id = 23
+            node_id = 15
+            role = "dispatch"
+        }
+        object {
+            contract_id = 28
+            node_id = 15
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 15
+            role = "memory"
+        }
+        object {
+            contract_id = 25
+            node_id = 15
+            role = "value_category"
+        }
+        object {
+            contract_id = 14
+            node_id = 16
+            role = "numeric"
+        }
+        object {
+            contract_id = 2
+            node_id = 16
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 17
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 17
+            role = "memory"
+        }
+        object {
+            contract_id = 4
+            node_id = 17
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 17
+            role = "value_category"
+        }
+        object {
+            contract_id = 16
+            node_id = 18
+            role = "control"
+        }
+        object {
+            contract_id = 18
+            node_id = 18
+            role = "dispatch"
+        }
+        object {
+            contract_id = 14
+            node_id = 18
+            role = "numeric"
+        }
+        object {
+            contract_id = 21
+            node_id = 19
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 19
+            role = "memory"
+        }
+        object {
+            contract_id = 11
+            node_id = 19
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 19
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 20
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 20
+            role = "memory"
+        }
+        object {
+            contract_id = 19
+            node_id = 20
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 20
+            role = "value_category"
+        }
+        object {
+            contract_id = 7
+            node_id = 21
+            role = "call"
+        }
+        object {
+            contract_id = 23
+            node_id = 21
+            role = "dispatch"
+        }
+        object {
+            contract_id = 28
+            node_id = 21
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 21
+            role = "memory"
+        }
+        object {
+            contract_id = 25
+            node_id = 21
+            role = "value_category"
+        }
+        object {
+            contract_id = 1
+            node_id = 22
+            role = "control"
+        }
+        object {
+            contract_id = 26
+            node_id = 22
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 22
+            role = "memory"
+        }
+        object {
+            contract_id = 21
+            node_id = 23
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 23
+            role = "memory"
+        }
+        object {
+            contract_id = 6
+            node_id = 23
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 23
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 24
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 24
+            role = "memory"
+        }
+        object {
+            contract_id = 19
+            node_id = 24
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 24
+            role = "value_category"
+        }
+        object {
+            contract_id = 9
+            node_id = 25
+            role = "call"
+        }
+        object {
+            contract_id = 23
+            node_id = 25
+            role = "dispatch"
+        }
+        object {
+            contract_id = 28
+            node_id = 25
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 25
+            role = "memory"
+        }
+        object {
+            contract_id = 25
+            node_id = 25
+            role = "value_category"
+        }
+        object {
+            contract_id = 1
+            node_id = 26
+            role = "control"
+        }
+        object {
+            contract_id = 26
+            node_id = 26
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 26
+            role = "memory"
+        }
+        object {
+            contract_id = 21
+            node_id = 27
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 27
+            role = "memory"
+        }
+        object {
+            contract_id = 13
+            node_id = 27
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 27
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 28
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 28
+            role = "memory"
+        }
+        object {
+            contract_id = 5
+            node_id = 28
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 28
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 29
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 29
+            role = "memory"
+        }
+        object {
+            contract_id = 20
+            node_id = 29
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 29
+            role = "value_category"
+        }
+        object {
+            contract_id = 14
+            node_id = 30
+            role = "numeric"
+        }
+        object {
+            contract_id = 2
+            node_id = 30
+            role = "value_category"
+        }
+        object {
+            contract_id = 12
+            node_id = 31
+            role = "call"
+        }
+        object {
+            contract_id = 23
+            node_id = 31
+            role = "dispatch"
+        }
+        object {
+            contract_id = 28
+            node_id = 31
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 31
+            role = "memory"
+        }
+        object {
+            contract_id = 25
+            node_id = 31
+            role = "value_category"
+        }
+        object {
+            contract_id = 1
+            node_id = 32
+            role = "control"
+        }
+        object {
+            contract_id = 26
+            node_id = 32
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 32
+            role = "memory"
+        }
+        object {
+            contract_id = 1
+            node_id = 33
+            role = "control"
+        }
+        object {
+            contract_id = 26
+            node_id = 33
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 33
+            role = "memory"
+        }
+        object {
+            contract_id = 1
+            node_id = 34
+            role = "control"
+        }
+        object {
+            contract_id = 26
+            node_id = 34
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 34
+            role = "memory"
+        }
+        object {
+            contract_id = 21
+            node_id = 35
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 35
+            role = "memory"
+        }
+        object {
+            contract_id = 33
+            node_id = 35
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 35
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 36
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 36
+            role = "memory"
+        }
+        object {
+            contract_id = 20
+            node_id = 36
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 36
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 37
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 37
+            role = "memory"
+        }
+        object {
+            contract_id = 19
+            node_id = 37
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 37
+            role = "value_category"
+        }
+        object {
+            contract_id = 32
+            node_id = 38
+            role = "call"
+        }
+        object {
+            contract_id = 23
+            node_id = 38
+            role = "dispatch"
+        }
+        object {
+            contract_id = 28
+            node_id = 38
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 38
+            role = "memory"
+        }
+        object {
+            contract_id = 25
+            node_id = 38
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 39
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 39
+            role = "memory"
+        }
+        object {
+            contract_id = 27
+            node_id = 39
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 39
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 40
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 40
+            role = "memory"
+        }
+        object {
+            contract_id = 20
+            node_id = 40
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 40
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 41
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 41
+            role = "memory"
+        }
+        object {
+            contract_id = 19
+            node_id = 41
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 41
+            role = "value_category"
+        }
+        object {
+            contract_id = 10
+            node_id = 42
+            role = "call"
+        }
+        object {
+            contract_id = 23
+            node_id = 42
+            role = "dispatch"
+        }
+        object {
+            contract_id = 28
+            node_id = 42
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 42
+            role = "memory"
+        }
+        object {
+            contract_id = 25
+            node_id = 42
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 43
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 43
+            role = "memory"
+        }
+        object {
+            contract_id = 8
+            node_id = 43
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 43
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 44
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 44
+            role = "memory"
+        }
+        object {
+            contract_id = 20
+            node_id = 44
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 44
+            role = "value_category"
+        }
+        object {
+            contract_id = 21
+            node_id = 45
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 45
+            role = "memory"
+        }
+        object {
+            contract_id = 19
+            node_id = 45
+            role = "symbol"
+        }
+        object {
+            contract_id = 0
+            node_id = 45
+            role = "value_category"
+        }
+        object {
+            contract_id = 31
+            node_id = 46
+            role = "call"
+        }
+        object {
+            contract_id = 23
+            node_id = 46
+            role = "dispatch"
+        }
+        object {
+            contract_id = 28
+            node_id = 46
+            role = "effect"
+        }
+        object {
+            contract_id = 30
+            node_id = 46
+            role = "memory"
+        }
+        object {
+            contract_id = 25
+            node_id = 46
+            role = "value_category"
+        }
+    ]
+    contract_schema = "code-transpiler.semantic-contracts.v2"
+    contract_table = list [
+        object {
+            hash = "00bf79bb2c6b341693388fce417444a1ae7fe3dffdaeb770c5cc01327e2d6a7f"
+            id = 0
+            kind = "VALUE_CATEGORY"
+            payload = object {
+                addressable = "unknown"
+                kind = "lvalue"
+                materialization = "unknown"
+                temporary = "false"
+            }
+        }
+        object {
+            hash = "04be0e19687adb3b29e916d9f869c32ec7ee468abe929706018298b0737e009e"
+            id = 1
+            kind = "CONTROL"
+            payload = object {
+                branching = "unknown"
+                evaluation_order = "unknown"
+                short_circuit = "unknown"
+                termination = "unknown"
+            }
+        }
+        object {
+            hash = "08cadc6937c4e4abe4c1c9c7be7c2fbcbf443fa5d7b0586c2dcb21bdf33bc578"
+            id = 2
+            kind = "VALUE_CATEGORY"
+            payload = object {
+                addressable = "unknown"
+                kind = "rvalue"
+                materialization = "unknown"
+                temporary = "false"
+            }
+        }
+        object {
+            hash = "1dfc2ad9fbb0b206474e85ae3d504ee39700cd59823ad2529f385a8729644273"
+            id = 3
+            kind = "MODULE"
+            payload = object {
+                identity = "unknown"
+                initialization = list [ "unknown" ]
+                kind = "module"
+            }
+        }
+        object {
+            hash = "225b88dffc11b513c64f0d5aa37bd2bcc45b34f8dce2f25e4d870d1f7a6f32ed"
+            id = 4
+            kind = "SYMBOL"
+            payload = object {
+                identity = "poly_obj"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+        object {
+            hash = "366aa89e0e4d3cb4e62e9abd92d3fe18c08212953d190cfabeaef724e5b67df9"
+            id = 5
+            kind = "SYMBOL"
+            payload = object {
+                identity = "AR_O"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+        object {
+            hash = "3fecd3c8b47cb756c41c71dd6d3a54d2ae08a40d7dd4f150caa66dedb1fbaec3"
+            id = 6
+            kind = "SYMBOL"
+            payload = object {
+                identity = "np.polyder"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+        object {
+            hash = "442ff7e6d3bb22261fb37237fe89ff462fd24004e6f8a3385234d95d1b4078b5"
+            id = 7
+            kind = "CALL"
+            payload = object {
+                arguments = list [
+                    object {
+                        node_id = 20
+                    }
+                ]
+                call_kind = "unknown"
+                callee_node = 19
+                evaluation_order = "eager_left_to_right"
+            }
+        }
+        object {
+            hash = "446723be2da1ba85f0d888dcb08be141010f30cdf7e9708e4bf319389cf84fd4"
+            id = 8
+            kind = "SYMBOL"
+            payload = object {
+                identity = "np.polysub"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+        object {
+            hash = "49dc3eb9ebde2707cc8be8e32e445d8e4469f90833d805c470c566f6e4c661d5"
+            id = 9
+            kind = "CALL"
+            payload = object {
+                arguments = list [
+                    object {
+                        node_id = 24
+                    }
+                ]
+                call_kind = "unknown"
+                callee_node = 23
+                evaluation_order = "eager_left_to_right"
+            }
+        }
+        object {
+            hash = "66e2baf46f83fe9ca7b6eea971e9d828e256a124a19a68991a386c6db168634e"
+            id = 10
+            kind = "CALL"
+            payload = object {
+                arguments = list [
+                    object {
+                        node_id = 40
+                    }
+                    object {
+                        node_id = 41
+                    }
+                ]
+                call_kind = "unknown"
+                callee_node = 39
+                evaluation_order = "eager_left_to_right"
+            }
+        }
+        object {
+            hash = "6ee1b590ae17761a09038e164b4a289046007949ae26153209691f92a43ba48b"
+            id = 11
+            kind = "SYMBOL"
+            payload = object {
+                identity = "np.polyint"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+        object {
+            hash = "7063e08d44e9b553ebc5bae0e015f5b05561d95cb22e53b4d6b14bba3629ce9a"
+            id = 12
+            kind = "CALL"
+            payload = object {
+                arguments = list [
+                    object {
+                        node_id = 28
+                    }
+                    object {
+                        node_id = 29
+                    }
+                    object {
+                        node_id = 30
+                    }
+                ]
+                call_kind = "unknown"
+                callee_node = 27
+                evaluation_order = "eager_left_to_right"
+            }
+        }
+        object {
+            hash = "7de16f051ee1d2b156800e3ac670738d75179cdda10b65d81f0f66acb6d77a43"
+            id = 13
+            kind = "SYMBOL"
+            payload = object {
+                identity = "np.polyfit"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+        object {
+            hash = "86d4a3725019deb86346dc0e5f940647c510efc68cbb841f8a517aa2d8d839a7"
+            id = 14
+            kind = "NUMERIC"
+            payload = object {
+                division = "unknown"
+                nan = "unknown"
+                overflow = "unknown"
+                rounding = "unknown"
+                signed_zero = "unknown"
+                type = object {
+                    bits = 64
+                    ieee754 = true
+                    kind = "float"
+                    type_origin = "inferred"
+                }
+            }
+        }
+        object {
+            hash = "8918afa9aed0792a27075b878209a8609f1a3db9a97a1e3cdf8663bdc58ee9bb"
+            id = 15
+            kind = "SYMBOL"
+            payload = object {
+                identity = "np.polymul"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+        object {
+            hash = "90bb8c67011998efcc54b7fc2dafec4dbf556cbff881cc4f866ccee5acba3218"
+            id = 16
+            kind = "CONTROL"
+            payload = object {
+                branching = "unknown"
+                evaluation_order = "left_to_right"
+                short_circuit = "unknown"
+                termination = "unknown"
+            }
+        }
+        object {
+            hash = "96672a88560c374f815fdca1c4abec85cae5a0176fbf8a217755c050947553eb"
+            id = 17
+            kind = "SYMBOL"
+            payload = object {
+                identity = "np.polydiv"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+        object {
+            hash = "a1911a40d8fc616df832e3b685e905bb389299b01a58a29ace463276bcfe1f05"
+            id = 18
+            kind = "DISPATCH"
+            payload = object {
+                kind = "builtin"
+                resolution_stage = "unknown"
+            }
+        }
+        object {
+            hash = "a2d5d6e28b235c08eb1cf6cece0c2e5bdb63991b34a57282a8e081ee68877b8e"
+            id = 19
+            kind = "SYMBOL"
+            payload = object {
+                identity = "AR_U"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+        object {
+            hash = "a3d28983f48f3101dfcb0764a71e5391ac743f95f0ef218df42058066cdf718c"
+            id = 20
+            kind = "SYMBOL"
+            payload = object {
+                identity = "AR_f8"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+        object {
+            hash = "a5698355656d8d12d617eac98eda09ccf095c6a997af61ef8893c0a426f916c6"
+            id = 21
+            kind = "EFFECT"
+            payload = object {
+                effects = list [ "local.read" ]
+                purity = "unknown"
+            }
+        }
+        object {
+            hash = "a6d5d63e77e1ce61d3df137606c7311d691292a746c9a803e7da5dc054c171e6"
+            id = 22
+            kind = "CALL"
+            payload = object {
+                arguments = list [
+                    object {
+                        node_id = 13
+                    }
+                    object {
+                        node_id = 14
+                    }
+                ]
+                call_kind = "unknown"
+                callee_node = 12
+                evaluation_order = "eager_left_to_right"
+            }
+        }
+        object {
+            hash = "aaa24d2fbc1f993973914e9b79eba494685823fc29843b93671006b892b90906"
+            id = 23
+            kind = "DISPATCH"
+            payload = object {
+                kind = "unknown"
+                resolution_stage = "unknown"
+            }
+        }
+        object {
+            hash = "b6f4045a64270187fcc7c3cb7fd36dc659171d811778748a2785cfe6e1c2d311"
+            id = 24
+            kind = "SYMBOL"
+            payload = object {
+                identity = "AR_c16"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+        object {
+            hash = "b9a05caad66dc1172cb14c0eb4e13d4b9ae117083513ae363a9ca551231cf9be"
+            id = 25
+            kind = "VALUE_CATEGORY"
+            payload = object {
+                addressable = "unknown"
+                kind = "temporary"
+                materialization = "unknown"
+                temporary = "true"
+            }
+        }
+        object {
+            hash = "baf7d45559e012ac751b04b520e750bfd57ed340b5267d0037bf794a84072ba0"
+            id = 26
+            kind = "EFFECT"
+            payload = object {
+                effects = list [ "control" ]
+                purity = "unknown"
+            }
+        }
+        object {
+            hash = "c854be4a25a1c526d112d5c5a9088f45ff3568d5e594b86544fa671f1db0356b"
+            id = 27
+            kind = "SYMBOL"
+            payload = object {
+                identity = "np.polyadd"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+        object {
+            hash = "cf54a5221a549f2c7bf03cf63d2ae5279040b9382833c83c0811dcc9c093dff5"
+            id = 28
+            kind = "EFFECT"
+            payload = object {
+                effects = list [ "call.unknown" ]
+                purity = "unknown"
+            }
+        }
+        object {
+            hash = "e065826b19ee95a939685dc865be76b9a7a5d3360d9ab0894ba6dd90ff872f29"
+            id = 29
+            kind = "CALL"
+            payload = object {
+                arguments = list [
+                    object {
+                        node_id = 9
+                    }
+                    object {
+                        node_id = 10
+                    }
+                ]
+                call_kind = "unknown"
+                callee_node = 8
+                evaluation_order = "eager_left_to_right"
+            }
+        }
+        object {
+            hash = "e10115ca4e0f36f94f286e52b8d3a7648869c74fdc0fa3816f244e569836d9d1"
+            id = 30
+            kind = "MEMORY"
+            payload = object {
+                access = "unknown"
+                addressability = "unknown"
+                aliasing = "unknown"
+                provenance = "unknown"
+                safety = "unknown"
+            }
+        }
+        object {
+            hash = "e110b965250366216acc3fb471f5d309dc3fd72677d5933b81b5a4fe232b0ae7"
+            id = 31
+            kind = "CALL"
+            payload = object {
+                arguments = list [
+                    object {
+                        node_id = 44
+                    }
+                    object {
+                        node_id = 45
+                    }
+                ]
+                call_kind = "unknown"
+                callee_node = 43
+                evaluation_order = "eager_left_to_right"
+            }
+        }
+        object {
+            hash = "ec75a1af3c255351509caab5b05107ff8e41176b64e64077c3e8e761937f89dd"
+            id = 32
+            kind = "CALL"
+            payload = object {
+                arguments = list [
+                    object {
+                        node_id = 36
+                    }
+                    object {
+                        node_id = 37
+                    }
+                ]
+                call_kind = "unknown"
+                callee_node = 35
+                evaluation_order = "eager_left_to_right"
+            }
+        }
+        object {
+            hash = "fae3b94e904af2e0b45a6e57dd1f84befdafe877687ba0f6184fa2afc86e89c9"
+            id = 33
+            kind = "SYMBOL"
+            payload = object {
+                identity = "np.polyval"
+                import_export = "unknown"
+                linkage = "unknown"
+                strength = "unknown"
+                visibility = "unknown"
+            }
+        }
+    ]
+    contracts = object { }
+    evaluation = "eager_left_to_right"
+
+    evidence = object {
+        binding = object {
+            cols = 0
+            entries = list [ ]
+            rows = 47
+            storage = "coo"
+        }
+        bindings = null
+        call_mode_axes = list [ "lazy_demand" "eager_left_to_right" ]
+        call_modes = object {
+            cols = 2
+            entries = list [
+                list [ 11 1 1 ]
+                list [ 15 1 1 ]
+                list [ 21 1 1 ]
+                list [ 25 1 1 ]
+                list [ 31 1 1 ]
+                list [ 38 1 1 ]
+                list [ 42 1 1 ]
+                list [ 46 1 1 ]
+            ]
+            rows = 47
+            storage = "coo"
+        }
+        contract = list [ 0 1 1 1 0 ]
+        contract_axes = list [ "lazy_demand" "eager_left_to_right" "binary64" "one_based_index" "full_source_type_equivalence" ]
+        control = object {
+            cols = 47
+            entries = list [ ]
+            rows = 47
+            storage = "coo"
+        }
+        data = object {
+            cols = 47
+            entries = list [
+                list [ 11 8 1 ]
+                list [ 11 9 1 ]
+                list [ 11 10 1 ]
+                list [ 15 12 1 ]
+                list [ 15 13 1 ]
+                list [ 15 14 1 ]
+                list [ 18 16 1 ]
+                list [ 18 17 1 ]
+                list [ 21 19 1 ]
+                list [ 21 20 1 ]
+                list [ 25 23 1 ]
+                list [ 25 24 1 ]
+                list [ 31 27 1 ]
+                list [ 31 28 1 ]
+                list [ 31 29 1 ]
+                list [ 31 30 1 ]
+                list [ 38 35 1 ]
+                list [ 38 36 1 ]
+                list [ 38 37 1 ]
+                list [ 42 39 1 ]
+                list [ 42 40 1 ]
+                list [ 42 41 1 ]
+                list [ 46 43 1 ]
+                list [ 46 44 1 ]
+                list [ 46 45 1 ]
+            ]
+            rows = 47
+            storage = "coo"
+        }
+        effect_axes = list [
+            "local.read"
+            "local.write"
+            "io.read"
+            "io.write"
+            "memory.allocate"
+            "global.read"
+            "global.write"
+            "filesystem.read"
+            "filesystem.write"
+            "network"
+            "exception.throw"
+            "thread.spawn"
+            "synchronization"
+            "ffi"
+            "time"
+            "random"
+            "call.unknown"
+            "control"
+        ]
+        effects = object {
+            cols = 18
+            entries = list [
+                list [ 0 17 1 ]
+                list [ 3 0 1 ]
+                list [ 4 0 1 ]
+                list [ 5 0 1 ]
+                list [ 6 0 1 ]
+                list [ 7 0 1 ]
+                list [ 8 0 1 ]
+                list [ 9 0 1 ]
+                list [ 10 0 1 ]
+                list [ 11 16 1 ]
+                list [ 12 0 1 ]
+                list [ 13 0 1 ]
+                list [ 14 0 1 ]
+                list [ 15 16 1 ]
+                list [ 17 0 1 ]
+                list [ 19 0 1 ]
+                list [ 20 0 1 ]
+                list [ 21 16 1 ]
+                list [ 22 17 1 ]
+                list [ 23 0 1 ]
+                list [ 24 0 1 ]
+                list [ 25 16 1 ]
+                list [ 26 17 1 ]
+                list [ 27 0 1 ]
+                list [ 28 0 1 ]
+                list [ 29 0 1 ]
+                list [ 31 16 1 ]
+                list [ 32 17 1 ]
+                list [ 33 17 1 ]
+                list [ 34 17 1 ]
+                list [ 35 0 1 ]
+                list [ 36 0 1 ]
+                list [ 37 0 1 ]
+                list [ 38 16 1 ]
+                list [ 39 0 1 ]
+                list [ 40 0 1 ]
+                list [ 41 0 1 ]
+                list [ 42 16 1 ]
+                list [ 43 0 1 ]
+                list [ 44 0 1 ]
+                list [ 45 0 1 ]
+                list [ 46 16 1 ]
+            ]
+            rows = 47
+            storage = "coo"
+        }
+        evaluation_order = object {
+            cols = 47
+            entries = list [ ]
+            rows = 47
+            storage = "coo"
+        }
+        nodes = list [
+            object {
+                id = 0
+                kind = "block"
+                scope = 0
+            }
+            object {
+                id = 1
+                kind = "module"
+                scope = 0
+            }
+            object {
+                id = 2
+                kind = "module"
+                scope = 0
+            }
+            object {
+                id = 3
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_f8"
+            }
+            object {
+                id = 4
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_c16"
+            }
+            object {
+                id = 5
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_O"
+            }
+            object {
+                id = 6
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_U"
+            }
+            object {
+                id = 7
+                kind = "identifier"
+                scope = 0
+                symbol = "poly_obj"
+            }
+            object {
+                id = 8
+                kind = "identifier"
+                scope = 0
+                symbol = "np.polymul"
+            }
+            object {
+                id = 9
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_f8"
+            }
+            object {
+                id = 10
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_U"
+            }
+            object {
+                id = 11
+                kind = "call"
+                scope = 0
+            }
+            object {
+                id = 12
+                kind = "identifier"
+                scope = 0
+                symbol = "np.polydiv"
+            }
+            object {
+                id = 13
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_f8"
+            }
+            object {
+                id = 14
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_U"
+            }
+            object {
+                id = 15
+                kind = "call"
+                scope = 0
+            }
+            object {
+                id = 16
+                kind = "literal"
+                scope = 0
+                symbol = "5"
+            }
+            object {
+                id = 17
+                kind = "identifier"
+                scope = 0
+                symbol = "poly_obj"
+            }
+            object {
+                id = 18
+                kind = "binary"
+                scope = 0
+            }
+            object {
+                id = 19
+                kind = "identifier"
+                scope = 0
+                symbol = "np.polyint"
+            }
+            object {
+                id = 20
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_U"
+            }
+            object {
+                id = 21
+                kind = "call"
+                scope = 0
+            }
+            object {
+                id = 22
+                kind = "expression"
+                scope = 0
+            }
+            object {
+                id = 23
+                kind = "identifier"
+                scope = 0
+                symbol = "np.polyder"
+            }
+            object {
+                id = 24
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_U"
+            }
+            object {
+                id = 25
+                kind = "call"
+                scope = 0
+            }
+            object {
+                id = 26
+                kind = "expression"
+                scope = 0
+            }
+            object {
+                id = 27
+                kind = "identifier"
+                scope = 0
+                symbol = "np.polyfit"
+            }
+            object {
+                id = 28
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_O"
+            }
+            object {
+                id = 29
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_f8"
+            }
+            object {
+                id = 30
+                kind = "literal"
+                scope = 0
+                symbol = "1"
+            }
+            object {
+                id = 31
+                kind = "call"
+                scope = 0
+            }
+            object {
+                id = 32
+                kind = "expression"
+                scope = 0
+            }
+            object {
+                id = 33
+                kind = "expression"
+                scope = 0
+            }
+            object {
+                id = 34
+                kind = "expression"
+                scope = 0
+            }
+            object {
+                id = 35
+                kind = "identifier"
+                scope = 0
+                symbol = "np.polyval"
+            }
+            object {
+                id = 36
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_f8"
+            }
+            object {
+                id = 37
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_U"
+            }
+            object {
+                id = 38
+                kind = "call"
+                scope = 0
+            }
+            object {
+                id = 39
+                kind = "identifier"
+                scope = 0
+                symbol = "np.polyadd"
+            }
+            object {
+                id = 40
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_f8"
+            }
+            object {
+                id = 41
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_U"
+            }
+            object {
+                id = 42
+                kind = "call"
+                scope = 0
+            }
+            object {
+                id = 43
+                kind = "identifier"
+                scope = 0
+                symbol = "np.polysub"
+            }
+            object {
+                id = 44
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_f8"
+            }
+            object {
+                id = 45
+                kind = "identifier"
+                scope = 0
+                symbol = "AR_U"
+            }
+            object {
+                id = 46
+                kind = "call"
+                scope = 0
+            }
+        ]
+        scope_membership = object {
+            cols = 1
+            entries = list [
+                list [ 0 0 1 ]
+                list [ 1 0 1 ]
+                list [ 2 0 1 ]
+                list [ 3 0 1 ]
+                list [ 4 0 1 ]
+                list [ 5 0 1 ]
+                list [ 6 0 1 ]
+                list [ 7 0 1 ]
+                list [ 8 0 1 ]
+                list [ 9 0 1 ]
+                list [ 10 0 1 ]
+                list [ 11 0 1 ]
+                list [ 12 0 1 ]
+                list [ 13 0 1 ]
+                list [ 14 0 1 ]
+                list [ 15 0 1 ]
+                list [ 16 0 1 ]
+                list [ 17 0 1 ]
+                list [ 18 0 1 ]
+                list [ 19 0 1 ]
+                list [ 20 0 1 ]
+                list [ 21 0 1 ]
+                list [ 22 0 1 ]
+                list [ 23 0 1 ]
+                list [ 24 0 1 ]
+                list [ 25 0 1 ]
+                list [ 26 0 1 ]
+                list [ 27 0 1 ]
+                list [ 28 0 1 ]
+                list [ 29 0 1 ]
+                list [ 30 0 1 ]
+                list [ 31 0 1 ]
+                list [ 32 0 1 ]
+                list [ 33 0 1 ]
+                list [ 34 0 1 ]
+                list [ 35 0 1 ]
+                list [ 36 0 1 ]
+                list [ 37 0 1 ]
+                list [ 38 0 1 ]
+                list [ 39 0 1 ]
+                list [ 40 0 1 ]
+                list [ 41 0 1 ]
+                list [ 42 0 1 ]
+                list [ 43 0 1 ]
+                list [ 44 0 1 ]
+                list [ 45 0 1 ]
+                list [ 46 0 1 ]
+            ]
+            rows = 47
+            storage = "coo"
+        }
+        scopes = list [
+            object {
+                id = 0
+                kind = "program"
+                parent = -1
+            }
+        ]
+        syntax = object {
+            cols = 47
+            entries = list [
+                list [ 0 1 1 ]
+                list [ 0 2 1 ]
+                list [ 0 3 1 ]
+                list [ 0 4 1 ]
+                list [ 0 5 1 ]
+                list [ 0 6 1 ]
+                list [ 0 7 1 ]
+                list [ 0 11 1 ]
+                list [ 0 15 1 ]
+                list [ 0 18 1 ]
+                list [ 0 21 1 ]
+                list [ 0 22 1 ]
+                list [ 0 25 1 ]
+                list [ 0 26 1 ]
+                list [ 0 31 1 ]
+                list [ 0 32 1 ]
+                list [ 0 33 1 ]
+                list [ 0 34 1 ]
+                list [ 0 38 1 ]
+                list [ 0 42 1 ]
+                list [ 0 46 1 ]
+                list [ 11 8 1 ]
+                list [ 11 9 1 ]
+                list [ 11 10 1 ]
+                list [ 15 12 1 ]
+                list [ 15 13 1 ]
+                list [ 15 14 1 ]
+                list [ 18 16 1 ]
+                list [ 18 17 1 ]
+                list [ 21 19 1 ]
+                list [ 21 20 1 ]
+                list [ 25 23 1 ]
+                list [ 25 24 1 ]
+                list [ 31 27 1 ]
+                list [ 31 28 1 ]
+                list [ 31 29 1 ]
+                list [ 31 30 1 ]
+                list [ 38 35 1 ]
+                list [ 38 36 1 ]
+                list [ 38 37 1 ]
+                list [ 42 39 1 ]
+                list [ 42 40 1 ]
+                list [ 42 41 1 ]
+                list [ 46 43 1 ]
+                list [ 46 44 1 ]
+                list [ 46 45 1 ]
+            ]
+            rows = 47
+            storage = "coo"
+        }
+        type_axes = list [ "binary64" "string" "boolean" "null" "na" "nan" "function" "unknown" ]
+        types = object {
+            cols = 8
+            entries = list [
+                list [ 0 7 1 ]
+                list [ 1 7 1 ]
+                list [ 2 7 1 ]
+                list [ 3 7 1 ]
+                list [ 4 7 1 ]
+                list [ 5 7 1 ]
+                list [ 6 7 1 ]
+                list [ 7 7 1 ]
+                list [ 8 7 1 ]
+                list [ 9 7 1 ]
+                list [ 10 7 1 ]
+                list [ 11 7 1 ]
+                list [ 12 7 1 ]
+                list [ 13 7 1 ]
+                list [ 14 7 1 ]
+                list [ 15 7 1 ]
+                list [ 16 7 1 ]
+                list [ 17 7 1 ]
+                list [ 18 7 1 ]
+                list [ 19 7 1 ]
+                list [ 20 7 1 ]
+                list [ 21 7 1 ]
+                list [ 22 7 1 ]
+                list [ 23 7 1 ]
+                list [ 24 7 1 ]
+                list [ 25 7 1 ]
+                list [ 26 7 1 ]
+                list [ 27 7 1 ]
+                list [ 28 7 1 ]
+                list [ 29 7 1 ]
+                list [ 30 7 1 ]
+                list [ 31 7 1 ]
+                list [ 32 7 1 ]
+                list [ 33 7 1 ]
+                list [ 34 7 1 ]
+                list [ 35 7 1 ]
+                list [ 36 7 1 ]
+                list [ 37 7 1 ]
+                list [ 38 7 1 ]
+                list [ 39 7 1 ]
+                list [ 40 7 1 ]
+                list [ 41 7 1 ]
+                list [ 42 7 1 ]
+                list [ 43 7 1 ]
+                list [ 44 7 1 ]
+                list [ 45 7 1 ]
+                list [ 46 7 1 ]
+            ]
+            rows = 47
+            storage = "coo"
+        }
+    }
+
+    extensions = object {
+        frontend_compiler_evidence = object {
+            evidence_ids = list [ "" "" "" "" "" "" "" ]
+            language = "python"
+            observed_features = list [ ]
+            phase_evidence = list [ ]
+            relation_evidence = list [ "evidence.exception_edge" "evidence.suspension_edge" "scope.parent" ]
+            schema = "compiler-frontend-evidence.v1"
+            sources = list [ ]
+        }
+        semantic_closure = object {
+            canonical_forms = 57
+            compiler_evidence_rows = 55
+            compiler_feature_rows = 216
+            compiler_phase_rows = 55
+            compiler_relation_rows = 21
+            compiler_source_rows = 47
+            composition_recipes = 4
+            dependency_kinds = 10
+            language = "python"
+            language_rows = 13
+            node_count = 47
+            phase_kinds = 5
+            relation_count = 129
+            relation_patterns = 33
+            runtime_forbidden = true
+            schema = "semantic-closure.v1"
+        }
+    }
+    index_base = 1
+    language_facet = list [
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        1
+        1
+        1
+        1
+        1
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        1
+        1
+        1
+        1
+        1
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        1
+        1
+        1
+        1
+        1
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        1
+        1
+        1
+        1
+        1
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        1
+        1
+        1
+        1
+        1
+        1
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        1
+        1
+        1
+        1
+        1
+        1
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        1
+        1
+        1
+        1
+        1
+        1
+        1
+        1
+        1
+        1
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        1
+        1
+        1
+        1
+        1
+        1
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        1
+        1
+        1
+        1
+        1
+        1
+        1
+        1
+        1
+        1
+        1
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+        0
+    ]
+    language_profile = "python"
+
+    metadata = object {
+        frontend = "matrix-structured-facts-v1"
+        frontend_route = "CANONICALIZE_ONLY"
+    }
+
+    nodes = list [
+        object {
+            fields = object {
+                effects = list [ "control" ]
+                id = 0
+                kind = "block"
+                members = list [
+                    object {
+                        domain = "node"
+                        id = "1"
+                    }
+                    object {
+                        domain = "node"
+                        id = "2"
+                    }
+                    object {
+                        domain = "node"
+                        id = "3"
+                    }
+                    object {
+                        domain = "node"
+                        id = "4"
+                    }
+                    object {
+                        domain = "node"
+                        id = "5"
+                    }
+                    object {
+                        domain = "node"
+                        id = "6"
+                    }
+                    object {
+                        domain = "node"
+                        id = "7"
+                    }
+                    object {
+                        domain = "node"
+                        id = "11"
+                    }
+                    object {
+                        domain = "node"
+                        id = "15"
+                    }
+                    object {
+                        domain = "node"
+                        id = "18"
+                    }
+                    object {
+                        domain = "node"
+                        id = "21"
+                    }
+                    object {
+                        domain = "node"
+                        id = "22"
+                    }
+                    object {
+                        domain = "node"
+                        id = "25"
+                    }
+                    object {
+                        domain = "node"
+                        id = "26"
+                    }
+                    object {
+                        domain = "node"
+                        id = "31"
+                    }
+                    object {
+                        domain = "node"
+                        id = "32"
+                    }
+                    object {
+                        domain = "node"
+                        id = "33"
+                    }
+                    object {
+                        domain = "node"
+                        id = "34"
+                    }
+                    object {
+                        domain = "node"
+                        id = "38"
+                    }
+                    object {
+                        domain = "node"
+                        id = "42"
+                    }
+                    object {
+                        domain = "node"
+                        id = "46"
+                    }
+                ]
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 0
+            semantic_facets = list [ "UASF_0051" ]
+            structural_kind = "Scope"
+        }
+        object {
+            fields = object {
+                id = 1
+                kind = "module"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 1
+            semantic_facets = list [ "UASF_0304" ]
+            structural_kind = "ModuleDecl"
+        }
+        object {
+            fields = object {
+                id = 2
+                kind = "module"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 2
+            semantic_facets = list [ "UASF_0304" ]
+            structural_kind = "ModuleDecl"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 3
+                kind = "identifier"
+                name = "AR_f8"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 3
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 4
+                kind = "identifier"
+                name = "AR_c16"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 4
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 5
+                kind = "identifier"
+                name = "AR_O"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 5
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 6
+                kind = "identifier"
+                name = "AR_U"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 6
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 7
+                kind = "identifier"
+                name = "poly_obj"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 7
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 8
+                kind = "identifier"
+                name = "np.polymul"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 8
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 9
+                kind = "identifier"
+                name = "AR_f8"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 9
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 10
+                kind = "identifier"
+                name = "AR_U"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 10
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                arguments = list [
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "9"
+                        }
+                        role = "argument"
+                    }
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "10"
+                        }
+                        role = "argument"
+                    }
+                ]
+                callee = object {
+                    domain = "node"
+                    id = "8"
+                }
+                effects = list [ "call.unknown" ]
+                id = 11
+                kind = "call"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+                value = object {
+                    reference = object {
+                        domain = "node"
+                        id = "8"
+                    }
+                }
+            }
+            id = 11
+            semantic_facets = list [ "UASF_0221" ]
+            structural_kind = "CallExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 12
+                kind = "identifier"
+                name = "np.polydiv"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 12
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 13
+                kind = "identifier"
+                name = "AR_f8"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 13
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 14
+                kind = "identifier"
+                name = "AR_U"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 14
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                arguments = list [
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "13"
+                        }
+                        role = "argument"
+                    }
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "14"
+                        }
+                        role = "argument"
+                    }
+                ]
+                callee = object {
+                    domain = "node"
+                    id = "12"
+                }
+                effects = list [ "call.unknown" ]
+                id = 15
+                kind = "call"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+                value = object {
+                    reference = object {
+                        domain = "node"
+                        id = "12"
+                    }
+                }
+            }
+            id = 15
+            semantic_facets = list [ "UASF_0221" ]
+            structural_kind = "CallExpr"
+        }
+        object {
+            fields = object {
+                id = 16
+                kind = "literal"
+                operation = object {
+                    literal_kind = "number"
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                    text = "5"
+                }
+                scope_id = 0
+                type_origin = "inferred"
+                type_ref = object {
+                    bits = 64
+                    ieee754 = true
+                    kind = "float"
+                    type_origin = "inferred"
+                }
+                value = object {
+                    literal_kind = "number"
+                    text = "5"
+                }
+            }
+            id = 16
+            semantic_facets = list [ "UASF_0224" ]
+            structural_kind = "LiteralExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 17
+                kind = "identifier"
+                name = "poly_obj"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 17
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                dispatch = object {
+                    operation_dispatch = "builtin"
+                }
+                evaluation_order = object {
+                    operation_evaluation = "left_to_right"
+                }
+                id = 18
+                kind = "binary"
+                operands = list [
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "16"
+                        }
+                        role = "left"
+                    }
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "17"
+                        }
+                        role = "right"
+                    }
+                ]
+                operation = object {
+                    operator = "**"
+                    semantic_id = "numeric.power"
+                    semantics = object {
+                        confidence = "exact"
+                        dispatch = "builtin"
+                        evaluation_order = "left_to_right"
+                        operation = "power"
+                    }
+                }
+                scope_id = 0
+                type_origin = "inferred"
+                type_ref = object {
+                    bits = 64
+                    ieee754 = true
+                    kind = "float"
+                    type_origin = "inferred"
+                }
+            }
+            id = 18
+            semantic_facets = list [ "UASF_0225" ]
+            structural_kind = "OperationExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 19
+                kind = "identifier"
+                name = "np.polyint"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 19
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 20
+                kind = "identifier"
+                name = "AR_U"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 20
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                arguments = list [
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "20"
+                        }
+                        role = "argument"
+                    }
+                ]
+                callee = object {
+                    domain = "node"
+                    id = "19"
+                }
+                effects = list [ "call.unknown" ]
+                id = 21
+                kind = "call"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+                value = object {
+                    reference = object {
+                        domain = "node"
+                        id = "19"
+                    }
+                }
+            }
+            id = 21
+            semantic_facets = list [ "UASF_0221" ]
+            structural_kind = "CallExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "control" ]
+                id = 22
+                kind = "expression"
+                operation = object {
+                    operator = "unsupported.expression.operand"
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 22
+            semantic_facets = list [ "UASF_0225" ]
+            structural_kind = "OperationExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 23
+                kind = "identifier"
+                name = "np.polyder"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 23
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 24
+                kind = "identifier"
+                name = "AR_U"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 24
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                arguments = list [
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "24"
+                        }
+                        role = "argument"
+                    }
+                ]
+                callee = object {
+                    domain = "node"
+                    id = "23"
+                }
+                effects = list [ "call.unknown" ]
+                id = 25
+                kind = "call"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+                value = object {
+                    reference = object {
+                        domain = "node"
+                        id = "23"
+                    }
+                }
+            }
+            id = 25
+            semantic_facets = list [ "UASF_0221" ]
+            structural_kind = "CallExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "control" ]
+                id = 26
+                kind = "expression"
+                operation = object {
+                    operator = "unsupported.expression.operand"
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 26
+            semantic_facets = list [ "UASF_0225" ]
+            structural_kind = "OperationExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 27
+                kind = "identifier"
+                name = "np.polyfit"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 27
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 28
+                kind = "identifier"
+                name = "AR_O"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 28
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 29
+                kind = "identifier"
+                name = "AR_f8"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 29
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                id = 30
+                kind = "literal"
+                operation = object {
+                    literal_kind = "number"
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                    text = "1"
+                }
+                scope_id = 0
+                type_origin = "inferred"
+                type_ref = object {
+                    bits = 64
+                    ieee754 = true
+                    kind = "float"
+                    type_origin = "inferred"
+                }
+                value = object {
+                    literal_kind = "number"
+                    text = "1"
+                }
+            }
+            id = 30
+            semantic_facets = list [ "UASF_0224" ]
+            structural_kind = "LiteralExpr"
+        }
+        object {
+            fields = object {
+                arguments = list [
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "28"
+                        }
+                        role = "argument"
+                    }
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "29"
+                        }
+                        role = "argument"
+                    }
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "30"
+                        }
+                        role = "argument"
+                    }
+                ]
+                callee = object {
+                    domain = "node"
+                    id = "27"
+                }
+                effects = list [ "call.unknown" ]
+                id = 31
+                kind = "call"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+                value = object {
+                    reference = object {
+                        domain = "node"
+                        id = "27"
+                    }
+                }
+            }
+            id = 31
+            semantic_facets = list [ "UASF_0221" ]
+            structural_kind = "CallExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "control" ]
+                id = 32
+                kind = "expression"
+                operation = object {
+                    operator = "unsupported.expression.operand"
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 32
+            semantic_facets = list [ "UASF_0225" ]
+            structural_kind = "OperationExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "control" ]
+                id = 33
+                kind = "expression"
+                operation = object {
+                    operator = "unsupported.expression.operand"
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 33
+            semantic_facets = list [ "UASF_0225" ]
+            structural_kind = "OperationExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "control" ]
+                id = 34
+                kind = "expression"
+                operation = object {
+                    operator = "unsupported.expression.operand"
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 34
+            semantic_facets = list [ "UASF_0225" ]
+            structural_kind = "OperationExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 35
+                kind = "identifier"
+                name = "np.polyval"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 35
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 36
+                kind = "identifier"
+                name = "AR_f8"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 36
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 37
+                kind = "identifier"
+                name = "AR_U"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 37
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                arguments = list [
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "36"
+                        }
+                        role = "argument"
+                    }
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "37"
+                        }
+                        role = "argument"
+                    }
+                ]
+                callee = object {
+                    domain = "node"
+                    id = "35"
+                }
+                effects = list [ "call.unknown" ]
+                id = 38
+                kind = "call"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+                value = object {
+                    reference = object {
+                        domain = "node"
+                        id = "35"
+                    }
+                }
+            }
+            id = 38
+            semantic_facets = list [ "UASF_0221" ]
+            structural_kind = "CallExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 39
+                kind = "identifier"
+                name = "np.polyadd"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 39
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 40
+                kind = "identifier"
+                name = "AR_f8"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 40
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 41
+                kind = "identifier"
+                name = "AR_U"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 41
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                arguments = list [
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "40"
+                        }
+                        role = "argument"
+                    }
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "41"
+                        }
+                        role = "argument"
+                    }
+                ]
+                callee = object {
+                    domain = "node"
+                    id = "39"
+                }
+                effects = list [ "call.unknown" ]
+                id = 42
+                kind = "call"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+                value = object {
+                    reference = object {
+                        domain = "node"
+                        id = "39"
+                    }
+                }
+            }
+            id = 42
+            semantic_facets = list [ "UASF_0221" ]
+            structural_kind = "CallExpr"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 43
+                kind = "identifier"
+                name = "np.polysub"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 43
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 44
+                kind = "identifier"
+                name = "AR_f8"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 44
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                effects = list [ "local.read" ]
+                id = 45
+                kind = "identifier"
+                name = "AR_U"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+            }
+            id = 45
+            semantic_facets = list [ "UASF_0219" ]
+            structural_kind = "SymbolRef"
+        }
+        object {
+            fields = object {
+                arguments = list [
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "44"
+                        }
+                        role = "argument"
+                    }
+                    object {
+                        reference = object {
+                            domain = "node"
+                            id = "45"
+                        }
+                        role = "argument"
+                    }
+                ]
+                callee = object {
+                    domain = "node"
+                    id = "43"
+                }
+                effects = list [ "call.unknown" ]
+                id = 46
+                kind = "call"
+                operation = object {
+                    semantics = object {
+                        confidence = "exact"
+                    }
+                }
+                scope_id = 0
+                type_origin = "unknown"
+                type_ref = object {
+                    kind = "unknown"
+                    type_origin = "unknown"
+                }
+                value = object {
+                    reference = object {
+                        domain = "node"
+                        id = "43"
+                    }
+                }
+            }
+            id = 46
+            semantic_facets = list [ "UASF_0221" ]
+            structural_kind = "CallExpr"
+        }
+    ]
+    origin = object {
+        entry_point = "main"
+        modules = null
+        source_language = "python"
+    }
+    projection = "frontend_facts.v1"
+
+    relations = list [
+        object {
+            from = 11
+            kind = "call.calls"
+            to = object {
+                domain = "node"
+                id = "8"
+            }
+        }
+        object {
+            from = 15
+            kind = "call.calls"
+            to = object {
+                domain = "node"
+                id = "12"
+            }
+        }
+        object {
+            from = 21
+            kind = "call.calls"
+            to = object {
+                domain = "node"
+                id = "19"
+            }
+        }
+        object {
+            from = 25
+            kind = "call.calls"
+            to = object {
+                domain = "node"
+                id = "23"
+            }
+        }
+        object {
+            from = 31
+            kind = "call.calls"
+            to = object {
+                domain = "node"
+                id = "27"
+            }
+        }
+        object {
+            from = 38
+            kind = "call.calls"
+            to = object {
+                domain = "node"
+                id = "35"
+            }
+        }
+        object {
+            from = 42
+            kind = "call.calls"
+            to = object {
+                domain = "node"
+                id = "39"
+            }
+        }
+        object {
+            from = 46
+            kind = "call.calls"
+            to = object {
+                domain = "node"
+                id = "43"
+            }
+        }
+        object {
+            from = 11
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "10"
+            }
+        }
+        object {
+            from = 11
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "8"
+            }
+        }
+        object {
+            from = 11
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "9"
+            }
+        }
+        object {
+            from = 15
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "12"
+            }
+        }
+        object {
+            from = 15
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "13"
+            }
+        }
+        object {
+            from = 15
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "14"
+            }
+        }
+        object {
+            from = 18
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "16"
+            }
+        }
+        object {
+            from = 18
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "17"
+            }
+        }
+        object {
+            from = 21
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "19"
+            }
+        }
+        object {
+            from = 21
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "20"
+            }
+        }
+        object {
+            from = 25
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "23"
+            }
+        }
+        object {
+            from = 25
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "24"
+            }
+        }
+        object {
+            from = 31
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "27"
+            }
+        }
+        object {
+            from = 31
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "28"
+            }
+        }
+        object {
+            from = 31
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "29"
+            }
+        }
+        object {
+            from = 31
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "30"
+            }
+        }
+        object {
+            from = 38
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "35"
+            }
+        }
+        object {
+            from = 38
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "36"
+            }
+        }
+        object {
+            from = 38
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "37"
+            }
+        }
+        object {
+            from = 42
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "39"
+            }
+        }
+        object {
+            from = 42
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "40"
+            }
+        }
+        object {
+            from = 42
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "41"
+            }
+        }
+        object {
+            from = 46
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "43"
+            }
+        }
+        object {
+            from = 46
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "44"
+            }
+        }
+        object {
+            from = 46
+            kind = "data.def_use"
+            to = object {
+                domain = "node"
+                id = "45"
+            }
+        }
+        object {
+            from = 18
+            kind = "data.operand"
+            to = object {
+                domain = "node"
+                id = "16"
+            }
+        }
+        object {
+            from = 18
+            kind = "data.operand"
+            to = object {
+                domain = "node"
+                id = "17"
+            }
+        }
+        object {
+            from = 11
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "call.unknown"
+            }
+        }
+        object {
+            from = 15
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "call.unknown"
+            }
+        }
+        object {
+            from = 21
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "call.unknown"
+            }
+        }
+        object {
+            from = 22
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "control"
+            }
+        }
+        object {
+            from = 25
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "call.unknown"
+            }
+        }
+        object {
+            from = 26
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "control"
+            }
+        }
+        object {
+            from = 31
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "call.unknown"
+            }
+        }
+        object {
+            from = 32
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "control"
+            }
+        }
+        object {
+            from = 33
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "control"
+            }
+        }
+        object {
+            from = 34
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "control"
+            }
+        }
+        object {
+            from = 38
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "call.unknown"
+            }
+        }
+        object {
+            from = 42
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "call.unknown"
+            }
+        }
+        object {
+            from = 46
+            kind = "effect.has"
+            to = object {
+                domain = "effect"
+                id = "call.unknown"
+            }
+        }
+        object {
+            from = 3
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "4"
+            }
+        }
+        object {
+            from = 4
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "5"
+            }
+        }
+        object {
+            from = 5
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "6"
+            }
+        }
+        object {
+            from = 6
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "7"
+            }
+        }
+        object {
+            from = 7
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "11"
+            }
+        }
+        object {
+            from = 8
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "9"
+            }
+        }
+        object {
+            from = 9
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "10"
+            }
+        }
+        object {
+            from = 11
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "15"
+            }
+        }
+        object {
+            from = 12
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "13"
+            }
+        }
+        object {
+            from = 13
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "14"
+            }
+        }
+        object {
+            from = 15
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "18"
+            }
+        }
+        object {
+            from = 16
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "17"
+            }
+        }
+        object {
+            from = 18
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "21"
+            }
+        }
+        object {
+            from = 19
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "20"
+            }
+        }
+        object {
+            from = 21
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "22"
+            }
+        }
+        object {
+            from = 22
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "25"
+            }
+        }
+        object {
+            from = 23
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "24"
+            }
+        }
+        object {
+            from = 25
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "26"
+            }
+        }
+        object {
+            from = 26
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "31"
+            }
+        }
+        object {
+            from = 27
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "28"
+            }
+        }
+        object {
+            from = 28
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "29"
+            }
+        }
+        object {
+            from = 29
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "30"
+            }
+        }
+        object {
+            from = 31
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "32"
+            }
+        }
+        object {
+            from = 32
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "33"
+            }
+        }
+        object {
+            from = 33
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "34"
+            }
+        }
+        object {
+            from = 34
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "38"
+            }
+        }
+        object {
+            from = 35
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "36"
+            }
+        }
+        object {
+            from = 36
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "37"
+            }
+        }
+        object {
+            from = 38
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "42"
+            }
+        }
+        object {
+            from = 39
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "40"
+            }
+        }
+        object {
+            from = 40
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "41"
+            }
+        }
+        object {
+            from = 42
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "46"
+            }
+        }
+        object {
+            from = 43
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "44"
+            }
+        }
+        object {
+            from = 44
+            kind = "evaluation.before"
+            to = object {
+                domain = "node"
+                id = "45"
+            }
+        }
+        object {
+            from = 18
+            kind = "operation.kind"
+            to = object {
+                domain = "operation"
+                id = "power"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "1"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 10
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "11"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 14
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "15"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 17
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "18"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 1
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "2"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 20
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "21"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 21
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "22"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 24
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "25"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 25
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "26"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 2
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "3"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 30
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "31"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 31
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "32"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 32
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "33"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 33
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "34"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 37
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "38"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 3
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "4"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 41
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "42"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 45
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "46"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 4
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "5"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 5
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "6"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 6
+                role = "statement"
+            }
+            from = 0
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "7"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 1
+                role = "argument"
+            }
+            from = 11
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "10"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "value"
+            }
+            from = 11
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "8"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "argument"
+            }
+            from = 11
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "9"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "value"
+            }
+            from = 15
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "12"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "argument"
+            }
+            from = 15
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "13"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 1
+                role = "argument"
+            }
+            from = 15
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "14"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "left"
+            }
+            from = 18
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "16"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "right"
+            }
+            from = 18
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "17"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "value"
+            }
+            from = 21
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "19"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "argument"
+            }
+            from = 21
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "20"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "value"
+            }
+            from = 25
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "23"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "argument"
+            }
+            from = 25
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "24"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "value"
+            }
+            from = 31
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "27"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "argument"
+            }
+            from = 31
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "28"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 1
+                role = "argument"
+            }
+            from = 31
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "29"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 2
+                role = "argument"
+            }
+            from = 31
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "30"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "value"
+            }
+            from = 38
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "35"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "argument"
+            }
+            from = 38
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "36"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 1
+                role = "argument"
+            }
+            from = 38
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "37"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "value"
+            }
+            from = 42
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "39"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "argument"
+            }
+            from = 42
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "40"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 1
+                role = "argument"
+            }
+            from = 42
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "41"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "value"
+            }
+            from = 46
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "43"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 0
+                role = "argument"
+            }
+            from = 46
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "44"
+            }
+        }
+        object {
+            attributes = object {
+                ordinal = 1
+                role = "argument"
+            }
+            from = 46
+            kind = "syntax.child"
+            to = object {
+                domain = "node"
+                id = "45"
+            }
+        }
+    ]
+
+    type_contract = object {
+        abi = "unknown"
+        collection = "dynamic_vector"
+        integer_width = "unknown"
+        null = "explicit"
+        numeric = "binary64"
+        ownership = "unknown"
+        pointer = "unknown"
+        schema_version = 1
+        text = "utf8"
+        truth = "r_compatible"
+    }
+
+    type_graph = object {
+        cols = 2
+        entries = list [ ]
+        rows = 2
+        storage = "coo"
+    }
+
+    type_relations = object {
+        children = object {
+            cols = 2
+            entries = list [ ]
+            rows = 0
+            storage = "coo"
+        }
+        edges = list [ ]
+        equivalence = object {
+            equivalent = object {
+                cols = 2
+                entries = list [
+                    list [ 0 0 1 ]
+                ]
+                rows = 2
+                storage = "coo"
+            }
+            refinement_rounds = 1
+            unknown = list [ 0 1 ]
+        }
+        nominal = object {
+            definitions = object {
+                cols = 0
+                entries = list [ ]
+                rows = 2
+                storage = "coo"
+            }
+            identities = list [ ]
+            references = object {
+                cols = 0
+                entries = list [ ]
+                rows = 2
+                storage = "coo"
+            }
+            resolution = object {
+                cols = 2
+                entries = list [ ]
+                rows = 2
+                storage = "coo"
+            }
+            unresolved = list [ 0 0 ]
+        }
+        occurrences = list [
+            "/nodes/0/type"
+            "/nodes/1/type"
+            "/nodes/2/type"
+            "/nodes/3/type"
+            "/nodes/4/type"
+            "/nodes/5/type"
+            "/nodes/6/type"
+            "/nodes/7/type"
+            "/nodes/8/type"
+            "/nodes/9/type"
+            "/nodes/10/type"
+            "/nodes/11/type"
+            "/nodes/12/type"
+            "/nodes/13/type"
+            "/nodes/14/type"
+            "/nodes/15/type"
+            "/nodes/16/type"
+            "/nodes/17/type"
+            "/nodes/18/type"
+            "/nodes/19/type"
+            "/nodes/20/type"
+            "/nodes/21/type"
+            "/nodes/22/type"
+            "/nodes/23/type"
+            "/nodes/24/type"
+            "/nodes/25/type"
+            "/nodes/26/type"
+            "/nodes/27/type"
+            "/nodes/28/type"
+            "/nodes/29/type"
+            "/nodes/30/type"
+            "/nodes/31/type"
+            "/nodes/32/type"
+            "/nodes/33/type"
+            "/nodes/34/type"
+            "/nodes/35/type"
+            "/nodes/36/type"
+            "/nodes/37/type"
+            "/nodes/38/type"
+            "/nodes/39/type"
+            "/nodes/40/type"
+            "/nodes/41/type"
+            "/nodes/42/type"
+            "/nodes/43/type"
+            "/nodes/44/type"
+            "/nodes/45/type"
+            "/nodes/46/type"
+        ]
+        parents = object {
+            cols = 2
+            entries = list [ ]
+            rows = 0
+            storage = "coo"
+        }
+        usage_counts = list [ 3 44 ]
+        uses = object {
+            cols = 2
+            entries = list [
+                list [ 0 1 1 ]
+                list [ 1 1 1 ]
+                list [ 2 1 1 ]
+                list [ 3 1 1 ]
+                list [ 4 1 1 ]
+                list [ 5 1 1 ]
+                list [ 6 1 1 ]
+                list [ 7 1 1 ]
+                list [ 8 1 1 ]
+                list [ 9 1 1 ]
+                list [ 10 1 1 ]
+                list [ 11 1 1 ]
+                list [ 12 1 1 ]
+                list [ 13 1 1 ]
+                list [ 14 1 1 ]
+                list [ 15 1 1 ]
+                list [ 16 0 1 ]
+                list [ 17 1 1 ]
+                list [ 18 0 1 ]
+                list [ 19 1 1 ]
+                list [ 20 1 1 ]
+                list [ 21 1 1 ]
+                list [ 22 1 1 ]
+                list [ 23 1 1 ]
+                list [ 24 1 1 ]
+                list [ 25 1 1 ]
+                list [ 26 1 1 ]
+                list [ 27 1 1 ]
+                list [ 28 1 1 ]
+                list [ 29 1 1 ]
+                list [ 30 0 1 ]
+                list [ 31 1 1 ]
+                list [ 32 1 1 ]
+                list [ 33 1 1 ]
+                list [ 34 1 1 ]
+                list [ 35 1 1 ]
+                list [ 36 1 1 ]
+                list [ 37 1 1 ]
+                list [ 38 1 1 ]
+                list [ 39 1 1 ]
+                list [ 40 1 1 ]
+                list [ 41 1 1 ]
+                list [ 42 1 1 ]
+                list [ 43 1 1 ]
+                list [ 44 1 1 ]
+                list [ 45 1 1 ]
+                list [ 46 1 1 ]
+            ]
+            rows = 47
+            storage = "coo"
+        }
+    }
+
+    type_table = list [
+        object {
+            id = 0
+            type = object {
+                bits = 64
+                ieee754 = true
+                kind = "float"
+                type_origin = "inferred"
+            }
+        }
+        object {
+            id = 1
+            type = object {
+                kind = "unknown"
+                type_origin = "unknown"
+            }
+        }
+    ]
+    value_model = "tagged_dynamic_binary64"
+}
